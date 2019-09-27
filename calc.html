@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html style="background-image:url(images/calc_bg_light.svg);">
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js-jq/js.js"></script>
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="quiz.html">QUIZ</a></li>
+        <li><a href="info.html">INFO</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <div class="active_page">
+            <li><a href="calc.html">CALC</a></li>
+        </div>
+        <li><a href="game.html">GAME</a></li>
+    </ul>
+
+
+    <div id="slidecontainer">
+        <p id="year_text">YEAR</p><br><br>
+        <input type="range" min="2019" max="2119" value="2019" class="slider" id="myRange"><br><br>
+        <span id="year"></span>
+        <div id="switch_container">
+            <div id="switch_bg">
+                <div id="switch_circle"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="graphiccontainer">
+        <span id="calculation">50.70</span>
+        <div id="bar_calc">
+            <span id="desc">Amount of E-waste in 2019 (MT)</span>
+        </div>
+    </div>
+    
+    <img id="cloud1" src="images/clouds/cloud1_light.svg" style="top:15%;right:77%;">
+    <img id="cloud2" src="images/clouds/cloud2_light.svg" style="top:18%;right:40%;">
+    
+    <script>
+        var slider, output, dif, calc, calculation, bar, padding;
+        slider = document.getElementById("myRange");
+        output = document.getElementById("year");
+        calculation = document.getElementById("calculation");
+        desc = document.getElementById("desc");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+            dif = parseInt(slider.value) - 2019; // number of years
+            calc = 50.7 + (2*dif); // amount in 2019 + twice the number of years (2 Mt extra each year)
+            if (calc < 100) {
+                calc = String(calc) + "0"
+            }
+
+            calculation.innerHTML = calc;
+            desc.innerHTML = "Amount of E-waste in " + slider.value + " (MT)"
+            output.innerHTML = this.value;
+            padding = 34 - (0.34*dif);
+            $("#graphiccontainer").css({paddingTop:padding + "%"})
+        }
+    </script>
+  
+    
+    <script>
+        if (localStorage.getItem("theme") == "dark") {
+            dark("calc");
+            $("#bar").css({opacity:"0.8"})
+        }
+        
+        $("#cloud1").animate({right:"100%"}, 40000);
+        $("#cloud2").animate({left:"100%"}, 50000);
+        
+        $("#switch_circle").click(function(){
+            if ($("#switch_circle").css("background-color") == "rgb(169, 169, 169)") {
+                    light("calc");
+                    $("#bar").css({opacity:"1"})
+                } else {
+                    dark("calc");
+                    $("#bar").css({opacity:"0.8"})
+                }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1280px" height="800px" viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" y="0" width="1280" height="800"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<rect x="0" y="0" fill="#353535" width="1280" height="800"/>
+		<path fill="#955400" d="M914.072,721.128l-81.807-50.235c-5.645-3.466-13.04-1.698-16.506,3.946L658.774,930.485
+			c-3.466,5.645-1.697,13.04,3.946,16.506l81.807,50.235c5.645,3.466,13.04,1.697,16.506-3.946l156.985-255.647
+			C921.484,731.988,919.716,724.594,914.072,721.128z"/>
+		<g>
+			<g>
+				<path fill="#7D0000" d="M892,748h4.156c1.018,0,1.844,0.826,1.844,1.844v11.313c0,1.018-0.826,1.843-1.844,1.843H892
+					c-1.017,0-1.843-0.825-1.843-1.843v-11.313C890.157,748.826,890.984,748,892,748z"/>
+				<path fill="#00C600" d="M894.241,698L894.241,698c4.834,0,8.759,3.969,8.759,8.855v35.29c0,4.887-3.925,8.854-8.759,8.854l0,0
+					c-4.833,0-8.757-3.968-8.757-8.854v-35.29C885.485,701.969,889.408,698,894.241,698z"/>
+			</g>
+		</g>
+		<ellipse vector-effect="non-scaling-stroke" fill="#955400" cx="984.5" cy="790.5" rx="208.5" ry="196.5"/>
+		<ellipse vector-effect="non-scaling-stroke" fill="#955400" cx="-235.242" cy="840.5" rx="312" ry="299"/>
+		<path fill="#955400" d="M1135.517,670.58l-79.355,54.025c-5.475,3.729-6.894,11.198-3.166,16.673l168.83,247.984
+			c3.728,5.475,11.198,6.894,16.673,3.167l79.355-54.026c5.474-3.727,6.893-11.198,3.166-16.673l-168.831-247.984
+			C1148.462,668.271,1140.99,666.853,1135.517,670.58z"/>
+		<path fill="#955400" d="M26.417,702.08l-79.355,54.025c-5.474,3.729-6.893,11.198-3.166,16.673l168.831,247.984
+			c3.728,5.475,11.197,6.894,16.672,3.167l79.355-54.026c5.475-3.727,6.893-11.198,3.166-16.673L43.09,705.246
+			C39.363,699.771,31.892,698.353,26.417,702.08z"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="1136.75" cy="441.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="1077.25" cy="494.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="1084.25" cy="170.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="564.25" cy="652.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="296.75" cy="449.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="67.25" cy="135.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="93.75" cy="360.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="146.25" cy="480" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="463.25" cy="253.75" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="651.75" cy="284.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="931.25" cy="211.75" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="385.75" cy="161.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="615.25" cy="209.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="796.75" cy="167.75" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="321.25" cy="300.5" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="905.75" cy="494.25" r="1.25"/>
+		<circle vector-effect="non-scaling-stroke" fill="#FFFFFF" cx="935" cy="585.25" r="1.25"/>
+	</g>
+</g>
+</svg>

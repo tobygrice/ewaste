@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html style="background-image:url(images/quiz_bg_light.svg);">
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js-jq/js.js"></script>
+    <script type="text/javascript" src="js-jq/quiz.js"></script>
+</head>
+
+<body>
+    <ul id="nav">
+        <div class="active_page">
+            <li><a href="quiz.html">QUIZ</a></li>
+        </div>
+        <li><a href="info.html">INFO</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="calc.html">CALC</a></li>
+        <li><a href="game.html">GAME</a></li>
+    </ul>
+    <div id="quiz_container">
+        <div id="head"></div>
+        <div id="question"></div><br><br><br><br>
+        <div id="card_container">
+            <div id="scorecard">
+                <div id="result"></div>
+                <textarea id="mistakes" readonly></textarea>
+                <div id="retry"></div>
+            </div>
+            <div id="a1"></div>
+            <div id="a2"></div><br>
+            <div id="a3"></div>
+            <div id="a4"></div>
+        </div>
+    </div>
+    <div id="switch_quiz">
+        <div id="switch_bg">
+            <div id="switch_circle"></div>
+        </div>
+    </div>
+    
+    <img id="cloud1" src="images/clouds/cloud1_light.svg" style="top:20%;left:1%;">
+    <img id="cloud2" src="images/clouds/cloud2_light.svg" style="top:40%;right:1%;width:20%;">
+  
+    <script>
+        if (localStorage.getItem("theme") == "dark") {
+            dark("quiz");
+        }
+        
+        $("#cloud1").animate({left:"-30%"}, 30000);
+        $("#cloud2").animate({left:"100%"}, 40000);
+        
+        $("#switch_circle").click(function() {
+            if ($("#switch_circle").css("background-color") == "rgb(169, 169, 169)") {
+                    light("quiz");
+                } else {
+                    dark("quiz");
+                }
+        });
+    </script>
+</body>
+</html>

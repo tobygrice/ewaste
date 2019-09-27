@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html style="background-image:url(images/info_bg_light.svg)">
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js-jq/js.js"></script>
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="quiz.html">QUIZ</a></li>
+        <div class="active_page">
+            <li><a href="info.html">INFO</a></li>
+        </div>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="calc.html">CALC</a></li>
+        <li><a href="game.html">GAME</a></li>
+    </ul>
+
+    <div id="switch" style="padding-top:15%;">
+        <div id="switch_bg">
+            <div id="switch_circle"></div>
+        </div>
+    </div>
+  
+    
+    <script>
+        if (localStorage.getItem("theme") == "dark") {
+            dark("info");
+        }
+        
+        $("#switch_circle").click(function(){
+            if ($("#switch_circle").css("background-color") == "rgb(169, 169, 169)") {
+                    light("info");
+                } else {
+                    dark("info");
+                }
+        });
+    </script>
+</body>
+</html>
